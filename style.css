@@ -1,0 +1,128 @@
+body{background: #aa4b6b;  
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+  
+   }
+#first{background: #aa4b6b;  
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    height: 40px;
+    font-family: hand, cursive;
+    color: white;
+ padding: 6px;
+}
+ #pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("image/farzad1.jpg") ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 900px;
+     width: 100%;
+     background-position: center;
+      
+ }
+.btn{
+  background-color: rgba(63, 118, 150, 0.6);
+ color: white;
+
+}
+
+
+#three{
+  background: #aa4b6b;  
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+ 
+}
+
+.dom{
+  background: #ADA996; 
+background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+
+  color: black;
+
+  text-align: justify;
+  max-width: 1500px;
+  display:block;
+       margin:0 auto;
+       margin-top: 130px;
+       margin-bottom: 60px;
+       padding: 20px 50px 20px 50px;
+}
+
+ 
+#four{
+  background: #aa4b6b;  
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+  
+    display: flex;
+    justify-content: space-between;
+}
+.england, .polen{display: none;}
+.language{
+  cursor: pointer;
+}
+
+ #last{margin-bottom:80px ;} 
+
+#myBtn{
+display: none;
+
+  position: fixed;
+  cursor: pointer;
+  padding: 15px;
+  z-index: 99;
+ 
+ bottom: 10px;
+  right: 15px;
+}
+.card{
+  background: #ADA996;  
+  background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  
+  min-height: 500px;
+}
+
+
+ @media screen and (max-width: 1030px) {
+  #pictures
+  {
+    height: 350px; 
+ }
+
+ @media screen and (max-width: 430px) {
+  
+  #pictures
+  {
+    background-image: url("image/farzad1.jpg") ;
+    height: 250px; 
+    padding: 0px 5px 0px 5px;
+    text-align: left;
+  } 
+  .dom
+  {
+    padding: 5px 5px 5px 5px;
+   
+  }
+    #three
+    {
+      margin-top:220px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+  
+  #pictures
+  {
+    background-image: url("image/farzad1.jpg");
+    height: 150px; 
+  
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+  }
+}
